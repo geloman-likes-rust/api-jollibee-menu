@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/c18ce51a-da21-4f17-83f3-5ce4fac7214d.png",
+      "description": "Jolly Crispy Fries Bucket",
+      "price": 158.00
+    },
+    {
+      "id": 2,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/9d96a3df-9500-488f-96d7-d75dadee9fe3.png",
+      "description": "Jolly Crispy Fries",
+      "price": 48.00
+    },
+    {
+      "id": 3,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/473e0a03-aef0-4378-ac86-f85ba9c1c6b4.png",
+      "description": "Creamy Macaroni Soup",
+      "price": 69.00
+    },
+    {
+      "id": 4,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/9e93b7c3-cead-42b1-bdca-230531294b78.png",
+      "description": "Extra Rice",
+      "price": 32.00
+    },
+    {
+      "id": 5,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/8a8770e4-faa3-4a22-aeda-d52f2583d6ac.png",
+      "description": "Extra 2.50z Gravy",
+      "price": 27.00
+    }
+  ]
+}

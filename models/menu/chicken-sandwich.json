@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/788d01ee-ae7d-4e08-964d-f61d29c9707b.png",
+      "description": "Chicken Sandwich",
+      "price": 149.00
+    },
+    {
+      "id": 2,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/378b13d4-e263-44dc-8bfa-1d78fc6288bb.png",
+      "description": "Chicken Sandwich w/ Fries & Drink",
+      "price": 218.00
+    }
+  ]
+}

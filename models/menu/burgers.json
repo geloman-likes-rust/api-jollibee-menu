@@ -1,0 +1,101 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/a8d20051-ceb5-4558-a715-9f710413e360.png",
+      "description": "Burger Bundle",
+      "price": 366.00
+    },
+    {
+      "id": 2,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/4c6d9484-4df8-4fdd-bd5a-b5ecb9547bf2.png",
+      "description": "Yumburger Family Savers",
+      "price": 265.00
+    },
+    {
+      "id": 3,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/32daacbe-753a-4a11-b7b2-e1254ddf94e3.png",
+      "description": "Yumburger",
+      "price": 40.00
+    },
+    {
+      "id": 4,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/c8e4dd5f-d1ed-45e1-931c-a59873ea2b7e.png",
+      "description": "Cheesy Yumburger",
+      "price": 66.00
+    },
+    {
+      "id": 5,
+      "img": "",
+      "description": "",
+      "price": 1
+    },
+    {
+      "id": 6,
+      "img": "",
+      "description": "",
+      "price": 1
+    },
+    {
+      "id": 7,
+      "img": "",
+      "description": "",
+      "price": 1
+    },
+    {
+      "id": 8,
+      "img": "",
+      "description": "",
+      "price": 1
+    },
+    {
+      "id": 9,
+      "img": "",
+      "description": "",
+      "price": 1
+    },
+    {
+      "id": 10,
+      "img": "",
+      "description": "",
+      "price": 1
+    },
+    {
+      "id": 11,
+      "img": "",
+      "description": "",
+      "price": 1
+    },
+    {
+      "id": 12,
+      "img": "",
+      "description": "",
+      "price": 1
+    },
+    {
+      "id": 13,
+      "img": "",
+      "description": "",
+      "price": 1
+    },
+    {
+      "id": 14,
+      "img": "",
+      "description": "",
+      "price": 1
+    },
+    {
+      "id": 15,
+      "img": "",
+      "description": "",
+      "price": 1
+    },
+    {
+      "id": 16,
+      "img": "",
+      "description": "",
+      "price": 1
+    }
+  ]
+}

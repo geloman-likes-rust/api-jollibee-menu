@@ -1,0 +1,17 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/3f57a8d3-b339-42c2-bb0e-fab757c97c11.png",
+      "description": "Yumburger Kiddie Meal",
+      "price": 103.00
+    },
+    {
+      "id": 2,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/fc895f7e-254d-4644-8459-8638586e0f90.png",
+      "description": "Jolly Spaghetti Kiddie Meal",
+      "price": 123.00
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/8dfd198a-754b-4598-92d3-7d33012f3d1f.png",
+      "description": "Iced Tea",
+      "price": 64.00
+    },
+    {
+      "id": 2,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/c75a9ad5-811e-4749-ae6b-5f16d30a0afa.png",
+      "description": "Coke",
+      "price": 53.00
+    },
+    {
+      "id": 3,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/7faef30c-5656-4059-82ac-5e43e0dbd17a.png",
+      "description": "Coke 1L Solo",
+      "price": 91.00
+    },
+    {
+      "id": 4,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/33addf32-09b1-4918-a852-5a5587b65344.png",
+      "description": "Coke Zero",
+      "price": 53.00
+    },
+    {
+      "id": 5,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/f7d89cd1-c5be-4eb9-b09a-8f00e39d41af.png",
+      "description": "Sprite",
+      "price": 53.00
+    },
+    {
+      "id": 6,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/c0ba2003-dc89-48ec-862c-7b45bdffcce7.png",
+      "description": "Royal",
+      "price": 53.00
+    },
+    {
+      "id": 7,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/88cca511-30bd-4359-a878-15b26a76a427.png",
+      "description": "Sarsi",
+      "price": 53.00
+    },
+    {
+      "id": 8,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/deac9ade-a160-44e9-8ecd-77b4aedd02af.png",
+      "description": "Pineapple Juice",
+      "price": 64.00
+    },
+    {
+      "id": 9,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/8d6c4226-3ff6-41aa-8402-1ac0fa642a13.png",
+      "description": "Soda Floats",
+      "price": 52.00
+    },
+    {
+      "id": 10,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/03b31043-9496-4666-aab8-d4b9a77f0d44.png",
+      "description": "Coffee",
+      "price": 43.00
+    },
+    {
+      "id": 11,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/48caf38c-b279-4028-acff-a5d95aae00b5.png",
+      "description": "Hot Chocolate",
+      "price": 48.00
+    }
+  ]
+}

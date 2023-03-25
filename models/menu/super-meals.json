@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/27e3f520-44e5-44a4-8435-60123654e7b9.png",
+      "description": "1 - pc. Chickenjoy w/ Burger Steak & Half Jolly Spaghetti Super Meal",
+      "price": 211.00
+    },
+    {
+      "id": 2,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/dd5796e9-f723-4709-923c-cb738b380294.png",
+      "description": "1 - pc. Chickenjoy w/ Half Jolly Spaghetti & Shanghai Super Meal",
+      "price": 211.00
+    },
+    {
+      "id": 3,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/ed2cad2b-807c-4eee-b929-1964cda9adb8.png",
+      "description": "Yumburger, Half Jolly Spaghetti & Reg. Fries Super Meal",
+      "price": 133.00
+    }
+  ]
+}

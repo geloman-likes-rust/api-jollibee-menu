@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/9c3aec9f-9cf5-40f2-8ffb-98e4035f4007.png",
+      "description": "6 - pc. Chickenjoy with Palabok Family Pan",
+      "price": 880.00
+    },
+    {
+      "id": 2,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/9c3aec9f-9cf5-40f2-8ffb-98e4035f4007.png",
+      "description": "8 - pc. Chickenjoy with Palabok Family Pan",
+      "price": 980.00
+    },
+    {
+      "id": 3,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/01ca0019-d96c-42a5-8b85-602d35196a7c.png",
+      "description": "Palabok Family Pan",
+      "price": 504.00
+    },
+    {
+      "id": 4,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/22dc413a-e117-4163-9835-e2dd326065bc.png",
+      "description": "Palabok",
+      "price": 133.00
+    },
+    {
+      "id": 5,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/4c58ebb9-ed42-4e97-b71c-69fc4639c56e.png",
+      "description": "1 - pc. Chickenjoy w/ Palabok",
+      "price": 205.00
+    }
+  ]
+}
