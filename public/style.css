@@ -3,12 +3,81 @@
   max-width: 1000px;
   margin-inline: auto;
   padding: 30px;
+  color: #635666;
 }
 
-.base-url {
-  margin-block: 20px;
+.header1 {
+  color: #FF6363;
+}
+
+.headers {
+  font-size: 30px;
+  color: #635666;
+  margin: 0;
+}
+
+.section {
+  margin-block: 40px;
+}
+
+.hostname {
+  margin-inline: 5px;
+  color: #68B984;
+  font-size: 24px;
+  margin-inline: 10px;
+  font-weight: 700;
 }
 
 .endpoint {
   margin-block: 20px;
+}
+
+.method {
+  border: 1px solid #2FA4FF;
+  border-radius: 5px;
+  font-size: 22px;
+  color: #4D4D4D;
+  letter-spacing: 1px;
+  padding: 2px 4px;
+}
+
+.GET {
+  font-weight: bold;
+  font-size: 24px;
+  color: #62CDFF;
+}
+
+.details {
+  padding: 15px;
+  font-size: 22px;
+  color: #4D4D4D;
+}
+
+.params {
+  margin-left: 30px;
+  font-size: 22px;
+}
+
+.header3 {
+  margin: 0;
+}
+.params {
+  margin-block: 20px;
+}
+
+.item {
+  font-weight: bold;
+}
+
+ul {
+  font-size: 22px;
+}
+
+li {
+  margin-block: 5px;
+}
+
+::selection {
+  background: #2FA4FF;
+  color: white;
 }

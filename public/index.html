@@ -9,16 +9,45 @@
 </head>
 <body>
   <div class="app">
-    <div class="base-url">BASE URL: api-jollibee-menu.vercel.app</div>
-    <div class="endpoint">
-      <div>GET /menu</div>
-      <div>Returns a list of all available menu items.</div>
+    <h1 class="header1">API DOCUMENTATION</h1>
+    <div class="section">
+      <h2 class="headers">BASE URL</h1>
+      <p class="hostname">api-jollibee-menu.vercel.app</p>
     </div>
-    <div class="endpoint">
-      <div>GET /menu/:item</div>
-      <div>Returns information about a specific menu item.</div>
-      <div>URL Parameters</div>
-      <div>item - Required. The name of the menu item to retrieve.</div>
+    <div class="section">
+      <h2 class="headers">ENDPOINTS</h1>
+      <div class="endpoint">
+        <div class="method"> <span class="GET">GET</span> /menu</div>
+        <div class="details">returns a list of all available menu items.</div>
+      </div>
+      <div class="endpoint">
+        <div class="method"> <span class="GET">GET</span> /menu/:item</div>
+        <div class="details">returns information about a specific menu item.</div>
+        <div class="params">
+          <h3 class="header3">URL Parameters</h3>
+          <div class="details"><span class="item">item</span> - the name of the menu item to retrieve.</div>
+          <div class="available-parameters">
+            <h3>item</h3>
+            <ul>
+              <li>best-sellers</li>
+              <li>beverages</li>
+              <li>breakfast</li>
+              <li>burger-steak</li>
+              <li>burgers</li>
+              <li>chicken-sandwich</li>
+              <li>desserts</li>
+              <li>family-meals</li>
+              <li>fries-sides</li>
+              <li>jolly-hotdog-pies</li>
+              <li>jolly-kiddie-meal</li>
+              <li>jolly-spaghetti</li>
+              <li>new-products</li>
+              <li>palabok</li>
+              <li>super-meals</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </body>
