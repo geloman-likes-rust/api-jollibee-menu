@@ -26,6 +26,7 @@
         <div class="params">
           <h3 class="header3">URL Parameters</h3>
           <div class="details"><span class="item">item</span> - the name of the menu item to retrieve.</div>
+
           <div class="available-parameters">
             <h3>item</h3>
             <ul>
@@ -46,9 +47,145 @@
               <li>super-meals</li>
             </ul>
           </div>
+
+          <div class="request">
+            <h3 class="header3">request</h3>
+            <deckgo-highlight-code line-numbers="true" language="javascript">
+              <code slot="code">function getItem(item) {
+  // Example: item = "best-sellers"
+  try {
+    let response = await fetch(`https://api-jollibee-menu.vercel.app/menu/${item}`)
+    let data = await response.json()
+    return [data, null]
+  } catch(err) { return [null, err] }
+}
+              </code>
+            </deckgo-highlight-code>
+          </div>
+          <div class="response">
+            <h3 class="header3">response 200</h3>
+            <deckgo-highlight-code line-numbers="true" languange="json">
+              <code slot="code">
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/c50a90f9-9e3f-47b0-82ca-309c5d856369.png",
+      "description": "8 - pc. Chickenjoy Bucket w/ Jolly Spaghetti Family Pan",
+      "price": 760.00
+    },
+    {
+      "id": 2,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/9c3aec9f-9cf5-40f2-8ffb-98e4035f4007.png",
+      "description": "6 - pc. Chickenjoy with Palabok Family Pan",
+      "price": 880.00
+    },
+    {
+      "id": 3,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/9c3aec9f-9cf5-40f2-8ffb-98e4035f4007.png",
+      "description": "8 - pc. Chickenjoy with Palabok Family Pan",
+      "price": 980.00
+    },
+    {
+      "id": 4,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/38d94f98-3b41-4a15-ba1c-d772fb231c7d.png",
+      "description": "6 - pc. Chickenjoy Solo",
+      "price": 435.00
+    },
+    {
+      "id": 5,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/38d94f98-3b41-4a15-ba1c-d772fb231c7d.png",
+      "description": "8 - pc. Chickenjoy Solo",
+      "price": 535.00
+    },
+    {
+      "id": 6,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/27e3f520-44e5-44a4-8435-60123654e7b9.png",
+      "description": "1 - pc. Chickenjoy w/ Burger Steak & Half Jolly Spaghetti Super Meal",
+      "price": 211.00
+    },
+    {
+      "id": 7,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/aa95561c-2d0b-481b-9351-4147c62709ce.png",
+      "description": "1 - pc. Chickenjoy w/ Jolly Spaghetti",
+      "price": 135.00
+    },
+    {
+      "id": 8,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/1af8b6ba-35f9-49ab-bb6f-dc0e57ebc2de.png",
+      "description": "1 - pc. Chickenjoy",
+      "price": 82.00
+    },
+    {
+      "id": 9,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/7132bf20-e317-4df9-916f-d1c3ce8db3d3.png",
+      "description": "2 - pc. Chickenjoy",
+      "price": 163.00
+    },
+    {
+      "id": 10,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/ed2cad2b-807c-4eee-b929-1964cda9adb8.png",
+      "description": "Yumburger, Half Jolly Spaghetti & Reg. Fries Super Meal",
+      "price": 133.00
+    },
+    {
+      "id": 11,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/c8e4dd5f-d1ed-45e1-931c-a59873ea2b7e.png",
+      "description": "Cheesy Yumburger",
+      "price": 66.00
+    },
+    {
+      "id": 12,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/32daacbe-753a-4a11-b7b2-e1254ddf94e3.png",
+      "description": "Yumburger",
+      "price": 40.00
+    },
+    {
+      "id": 13,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/88290d08-ab92-452c-a442-bc5d4f67c88e.png",
+      "description": "Jolly Spaghetti w/ Yumburger",
+      "price": 122.00
+    },
+    {
+      "id": 14,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/63727caf-a5c3-483d-b333-e861461ca4ea.png",
+      "description": "Jolly Spaghetti",
+      "price": 59.00
+    },
+    {
+      "id": 15,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/d9253c52-eb96-4e78-be5a-4f71eea7eded.png",
+      "description": "Chickenjoy Bucket Family Meals",
+      "price": 758.00
+    },
+    {
+      "id": 16,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/4c6d9484-4df8-4fdd-bd5a-b5ecb9547bf2.png",
+      "description": "Yumburger Family Savers",
+      "price": 265.00
+    },
+    {
+      "id": 17,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/a8d20051-ceb5-4558-a715-9f710413e360.png",
+      "description": "Burger Bundle",
+      "price": 366.00
+    },
+    {
+      "id": 18,
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/97c65d20-e66c-4b30-9a8c-5fcfa61d375b.png",
+      "description": "Jolly Spaghetti & Palabok Family Pan",
+      "price": 235.00
+    }
+  ]
+}
+              </code>
+            </deckgo-highlight-code>
+          </div>
         </div>
       </div>
     </div>
   </div>
+  <script type="module" src="https://unpkg.com/@deckdeckgo/highlight-code@latest/dist/deckdeckgo-highlight-code/deckdeckgo-highlight-code.esm.js"></script>
 </body>
 </html>

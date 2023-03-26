@@ -8,6 +8,14 @@
   color: #635666;
 }
 
+.request {
+  margin-block: 40px;
+}
+
+.response {
+  margin-block: 40px;
+}
+
 .header1 {
   color: #FF6363;
 }
@@ -77,6 +85,11 @@ ul {
 
 li {
   margin-block: 5px;
+}
+
+deckgo-highlight-code {
+  --deckgo-highlight-code-font-size: clamp(6px, 3vw, 18px);
+  --deckgo-highlight-code-font-family: 'Nunito', sans-serif;
 }
 
 ::selection {
