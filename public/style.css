@@ -25,7 +25,7 @@
 .hostname {
   margin-inline: 5px;
   color: #68B984;
-  font-size: 24px;
+  font-size: clamp(18px, 3vw, 24px);
   margin-inline: 10px;
   font-weight: 700;
 }
