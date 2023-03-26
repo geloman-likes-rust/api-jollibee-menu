@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 .app {
   min-height: 100vh;
   max-width: 1000px;
+  font-family: 'Roboto', sans-serif;
   margin-inline: auto;
   padding: 30px;
   color: #635666;
