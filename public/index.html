@@ -51,7 +51,7 @@
           <div class="request">
             <h3 class="header3">request</h3>
             <deckgo-highlight-code line-numbers="true" language="javascript">
-              <code slot="code">function getItem(item) {
+              <code slot="code">async function getItem(item) {
   // Example: item = "best-sellers"
   try {
     let response = await fetch(`https://api-jollibee-menu.vercel.app/menu/${item}`)
