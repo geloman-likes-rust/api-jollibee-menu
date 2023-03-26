@@ -19,6 +19,45 @@
       <div class="endpoint">
         <div class="method"> <span class="GET">GET</span> /menu</div>
         <div class="details">returns a list of all available menu items.</div>
+        <div class="request">
+          <h3 class="request-snippet">request</h3>
+          <deckgo-highlight-code line-numbers="true" languange="javascript">
+            <code slot="code">async function getMenu() {
+  try {
+    let response = await fetch("https://api-jollibee-menu.vercel.app/menu")
+    let data = await response.json()
+    return [data, null]
+  } catch(err) { return [null, err] }
+}</code>
+          </deckgo-highlight-code>
+        </div>
+        <div class="response">
+          <h3 class="response-snippet">response</h3>
+          <deckgo-highlight-code line-numbers="true" languange="json">
+            <code slot="code">{
+  "success": true,
+  "data": [
+    "Best Sellers",
+    "New Products",
+    "Family Meals",
+    "Breakfast",
+    "Chickenjoy",
+    "Burgers",
+    "Jolly Spaghetti",
+    "Burger Steak",
+    "Super Meals",
+    "Chicken Sandwich",
+    "Jolly Hotdog & Pies",
+    "Palabok",
+    "Fries & Sides",
+    "Desserts",
+    "Beverages",
+    "Jolly Kiddie Meal"
+  ]
+}
+            </code>
+          </deckgo-highlight-code>
+        </div>
       </div>
       <div class="endpoint">
         <div class="method"> <span class="GET">GET</span> /menu/:item</div>
@@ -49,7 +88,7 @@
           </div>
 
           <div class="request">
-            <h3 class="header3">request</h3>
+            <h3 class="request-snippet">request</h3>
             <deckgo-highlight-code line-numbers="true" language="javascript">
               <code slot="code">async function getItem(item) {
   // Example: item = "best-sellers"
@@ -63,7 +102,7 @@
             </deckgo-highlight-code>
           </div>
           <div class="response">
-            <h3 class="header3">response 200</h3>
+            <h3 class="response-snippet">response</h3>
             <deckgo-highlight-code line-numbers="true" languange="json">
               <code slot="code">
 {

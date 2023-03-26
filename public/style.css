@@ -71,6 +71,15 @@
 .header3 {
   margin: 0;
 }
+
+.request-snippet {
+  font-size: 26px;
+}
+
+.response-snippet {
+  font-size: 26px;
+}
+
 .params {
   margin-block: 20px;
 }
