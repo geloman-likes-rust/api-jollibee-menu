@@ -101,6 +101,10 @@ deckgo-highlight-code {
   --deckgo-highlight-code-font-family: 'Nunito', sans-serif;
 }
 
+.response deckgo-highlight-code {
+  --deckgo-highlight-code-height: 300px;
+}
+
 ::selection {
   background: #2FA4FF;
   color: white;
