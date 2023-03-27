@@ -27,75 +27,63 @@
     },
     {
       "id": 5,
-      "img": "",
-      "description": "",
-      "price": 1
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/f6129bbb-80a7-4080-8c9d-4010498fee3b.png",
+      "description": "Bacon Cheesy Yumburger",
+      "price": 91.00
     },
     {
       "id": 6,
-      "img": "",
-      "description": "",
-      "price": 1
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/20180950-44ca-4403-b344-4d71a9661d83.png",
+      "description": "Amazing Aloha Champ Jr.",
+      "price": 117.00
     },
     {
       "id": 7,
-      "img": "",
-      "description": "",
-      "price": 1
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/0788c224-3baa-44a9-a1e0-41534e5dff00.png",
+      "description": "Champ Jr.",
+      "price": 96.00
     },
     {
       "id": 8,
-      "img": "",
-      "description": "",
-      "price": 1
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/0c16a555-444a-48b7-97cd-f75e31dbf444.png",
+      "description": "Amazing Aloha Champ Jr. w/o Bacon",
+      "price": 112.00
     },
     {
       "id": 9,
-      "img": "",
-      "description": "",
-      "price": 1
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/4ee2e491-80f1-46da-bfc8-71f89f9777e5.png",
+      "description": "Double Amazing Aloha Champ Jr.",
+      "price": 159.00
     },
     {
       "id": 10,
-      "img": "",
-      "description": "",
-      "price": 1
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/c564f7cc-7fe0-413d-be86-eb90e1e8deaa.png",
+      "description": "Double Amazing Aloha Champ Jr. w/o Bacon",
+      "price": 144.00
     },
     {
       "id": 11,
-      "img": "",
-      "description": "",
-      "price": 1
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/315af317-e0b3-4c15-a077-68a6677999e8.png",
+      "description": "Champ",
+      "price": 169.00
     },
     {
       "id": 12,
-      "img": "",
-      "description": "",
-      "price": 1
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/6044c673-2529-412f-87b6-d2a1e482266c.png",
+      "description": "Amazing Aloha Champ",
+      "price": 239.00
     },
     {
       "id": 13,
-      "img": "",
-      "description": "",
-      "price": 1
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/88290d08-ab92-452c-a442-bc5d4f67c88e.png",
+      "description": "Jolly Spaghetti w/ Yumburger",
+      "price": 122.00
     },
     {
       "id": 14,
-      "img": "",
-      "description": "",
-      "price": 1
-    },
-    {
-      "id": 15,
-      "img": "",
-      "description": "",
-      "price": 1
-    },
-    {
-      "id": 16,
-      "img": "",
-      "description": "",
-      "price": 1
+      "img": "https://jb-ph-cdn.tillster.com/menu-images/prod/ed2cad2b-807c-4eee-b929-1964cda9adb8.png",
+      "description": "Yumburger, Half Jolly Spaghetti & Reg. Fries Super Meal",
+      "price": 133.00
     }
   ]
 }
